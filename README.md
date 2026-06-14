@@ -18,66 +18,10 @@ SmartHealth es una aplicación móvil desarrollada para la gestión de citas mé
 ---
 
 ### Arquitectura
-- Clean Architecture
+Clean Architecture
 
 El proyecto está organizado siguiendo el patrón Clean Architecture, separando la aplicación en capas para mejorar la mantenibilidad, escalabilidad y testabilidad del sistema.
 
 ---
 
 ### Estructura del proyecto
-lib/
-│
-├── core/
-│   ├── constants/
-│   ├── utils/
-│   └── services/
-│
-├── data/
-│   ├── datasources/
-│   ├── models/
-│   └── repositories/
-│
-├── domain/
-│   ├── entities/
-│   ├── repositories/
-│   └── usecases/
-│
-├── presentation/
-│   ├── screens/
-│   ├── widgets/
-│   └── providers/
-│
-├── shared/
-│   ├── themes/
-│   └── components/
-│
-└── main.dart
-
----
-
-### Funcionalidades principales
-- Registro e inicio de sesión de usuarios
-- Gestión de pacientes
-- Programación de citas médicas
-- Modificación y cancelación de citas
-- Consulta de historial de citas
-- Administración de usuarios y horarios médicos
-
----
-
-### Alcance del sistema
-El sistema se enfoca únicamente en la gestión de citas médicas y no incluye:
-- Videollamadas médicas
-- Pagos en línea
-- Integración con seguros médicos
-- Diagnósticos médicos con inteligencia artificial
-
----
-
-### Integrante
-- Darling Báez
-
----
-
-### Asignatura
-Seminario de Proyecto II (ISW-411)
