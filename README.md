@@ -22,7 +22,7 @@ Clean Architecture
 
 El proyecto está organizado siguiendo el patrón Clean Architecture, separando la aplicación en capas para mejorar la mantenibilidad, escalabilidad y testabilidad del sistema.
 
----
+Estructura del proyecto
 
 lib/
 │
@@ -80,6 +80,5 @@ Darling Báez
 
 ### Asignatura
 Seminario de Proyecto II (ISW-411)
----
 
 ### Estructura del proyecto
