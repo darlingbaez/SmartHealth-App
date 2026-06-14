@@ -1,92 +1,17 @@
-# SmartHealth
+# smarthealth
 
-## Sistema de Gestión de Citas Médicas
+A new Flutter project.
 
-## 📌 Descripción
-SmartHealth es una aplicación móvil desarrollada para la gestión de citas médicas entre pacientes, médicos y centros de salud. El sistema permite a los usuarios registrarse, iniciar sesión, programar, modificar y cancelar citas médicas de forma digital, mejorando la organización y eficiencia del proceso de atención.
+## Getting Started
 
----
+This project is a starting point for a Flutter application.
 
-## 🛠️ Tecnologías utilizadas
-- Flutter
-- Dart
-- Firebase Authentication
-- Cloud Firestore
-- Firebase Storage
-- GitHub
+A few resources to get you started if this is your first Flutter project:
 
----
+- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
+- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
 
-## 🏗️ Arquitectura
-Clean Architecture
-
-El proyecto está organizado siguiendo el patrón Clean Architecture, separando la aplicación en capas independientes para mejorar la mantenibilidad, escalabilidad y testabilidad del sistema.
-
-Esto permite dividir claramente:
-- Lógica de presentación
-- Lógica de negocio
-- Acceso a datos
-
----
-
-## 📁 Estructura del proyecto
-
-lib/
-│
-├── core/
-│ ├── constants/
-│ ├── utils/
-│ └── services/
-│
-├── data/
-│ ├── datasources/
-│ ├── models/
-│ └── repositories/
-│
-├── domain/
-│ ├── entities/
-│ ├── repositories/
-│ └── usecases/
-│
-├── presentation/
-│ ├── screens/
-│ ├── widgets/
-│ └── providers/
-│
-├── shared/
-│ ├── themes/
-│ └── components/
-│
-└── main.dart
-
-
----
-
-## ⚙️ Funcionalidades principales
-- Registro e inicio de sesión de usuarios
-- Gestión de pacientes
-- Programación de citas médicas
-- Modificación y cancelación de citas
-- Consulta de historial de citas
-- Administración de usuarios y horarios médicos
-
----
-
-## 🎯 Alcance del sistema
-El sistema se enfoca únicamente en la gestión de citas médicas.
-
-### ❌ No incluye:
-- Videollamadas médicas
-- Pagos en línea
-- Integración con seguros médicos
-- Diagnósticos médicos con inteligencia artificial
-
----
-
-## 👤 Integrante
-Darling Báez
-
----
-
-## 📚 Asignatura
-Seminario de Proyecto II (ISW-411)
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
