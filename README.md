@@ -28,6 +28,7 @@ Esto permite dividir claramente:
 - Acceso a datos
 
 ---
+
 lib/
 │
 ├── core/
