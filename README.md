@@ -29,6 +29,32 @@ Esto permite dividir claramente:
 
 ---
 
+## ⚙️ Funcionalidades principales
+- Registro e inicio de sesión de usuarios
+- Gestión de pacientes
+- Programación de citas médicas
+- Modificación y cancelación de citas
+- Consulta de historial de citas
+- Administración de usuarios y horarios médicos
+
+---
+
+## 🎯 Alcance del sistema
+El sistema se enfoca únicamente en la gestión de citas médicas.
+
+### ❌ No incluye:
+- Videollamadas médicas
+- Pagos en línea
+- Integración con seguros médicos
+- Diagnósticos médicos con inteligencia artificial
+
+---
+
+## 👤 Integrante
+Darling Báez
+
+
+## 📁 Estructura del proyecto
 lib/
 │
 ├── core/
@@ -56,33 +82,3 @@ lib/
 │ └── components/
 │
 └── main.dart
-
-
----
-
-## ⚙️ Funcionalidades principales
-- Registro e inicio de sesión de usuarios
-- Gestión de pacientes
-- Programación de citas médicas
-- Modificación y cancelación de citas
-- Consulta de historial de citas
-- Administración de usuarios y horarios médicos
-
----
-
-## 🎯 Alcance del sistema
-El sistema se enfoca únicamente en la gestión de citas médicas.
-
-### ❌ No incluye:
-- Videollamadas médicas
-- Pagos en línea
-- Integración con seguros médicos
-- Diagnósticos médicos con inteligencia artificial
-
----
-
-## 👤 Integrante
-Darling Báez
-
-
-## 📁 Estructura del proyecto
