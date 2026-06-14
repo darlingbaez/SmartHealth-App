@@ -29,6 +29,39 @@ Esto permite dividir claramente:
 
 ---
 
+## 📁 Estructura del proyecto
+
+lib/
+│
+├── core/
+│ ├── constants/
+│ ├── utils/
+│ └── services/
+│
+├── data/
+│ ├── datasources/
+│ ├── models/
+│ └── repositories/
+│
+├── domain/
+│ ├── entities/
+│ ├── repositories/
+│ └── usecases/
+│
+├── presentation/
+│ ├── screens/
+│ ├── widgets/
+│ └── providers/
+│
+├── shared/
+│ ├── themes/
+│ └── components/
+│
+└── main.dart
+
+
+---
+
 ## ⚙️ Funcionalidades principales
 - Registro e inicio de sesión de usuarios
 - Gestión de pacientes
@@ -52,5 +85,8 @@ El sistema se enfoca únicamente en la gestión de citas médicas.
 
 ## 👤 Integrante
 Darling Báez
-│
-└── main.dart
+
+---
+
+## 📚 Asignatura
+Seminario de Proyecto II (ISW-411)
