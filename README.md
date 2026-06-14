@@ -52,33 +52,5 @@ El sistema se enfoca únicamente en la gestión de citas médicas.
 
 ## 👤 Integrante
 Darling Báez
-
-
-## 📁 Estructura del proyecto
-lib/
-│
-├── core/
-│ ├── constants/
-│ ├── utils/
-│ └── services/
-│
-├── data/
-│ ├── datasources/
-│ ├── models/
-│ └── repositories/
-│
-├── domain/
-│ ├── entities/
-│ ├── repositories/
-│ └── usecases/
-│
-├── presentation/
-│ ├── screens/
-│ ├── widgets/
-│ └── providers/
-│
-├── shared/
-│ ├── themes/
-│ └── components/
 │
 └── main.dart
